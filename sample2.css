@@ -12,6 +12,10 @@ main{
 div{
     background-color: #a82d67;
     color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 main>:nth-child(1){
     grid-area: 1/1/4/3;
